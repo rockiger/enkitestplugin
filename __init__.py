@@ -1,3 +1,4 @@
+"""Test the plugin for enki pluginmanager install functionality"""
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QHBoxLayout, QLabel, QLineEdit, QMessageBox, QWidget
@@ -7,9 +8,9 @@ from enki.core.core import core
 
 import enki.widgets.dockwidget
 
-__pluginname__ = "Hello World"
-__author__ = "Hello Author"
-__version__ = "0.0.1"
+__pluginname__ = "Test Plugin"
+__author__ = "Test Programmer"
+__version__ = "0.1.0"
 
 class MyDock(enki.widgets.dockwidget.DockWidget):
 
